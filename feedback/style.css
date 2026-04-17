@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.panel-container{
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    font-size: 90%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+
+.panel-container strong{
+    line-height: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ratings-container{
+    display: flex;
+    margin: 20px 0;
+}
+
+.rating{
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 5px;
+    flex: 1;
+    
+}
+
+.rating:hover{
+    border-radius: 4px;
+    background-color: #ccc;
+    transition: 1s ease;
+}
+
+.rating .icon{
+    font-size: 5rem;
+
+}
+
+.rating small{
+    color: #ccc;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.heart{
+    font-size: 3rem;
+    margin-bottom: 10px ;
+}
